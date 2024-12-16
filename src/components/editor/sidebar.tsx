@@ -23,13 +23,13 @@ export default function Sidebar() {
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <FileIcon className="h-4 w-4" />
+      <div className="w-full mt-2">
+        <div className="w-full flex items-center h-6 transition-colors hover:text-muted-foreground cursor-pointer">
+          <FileIcon className="h-4 w-4 mr-2" />
           index.html
         </div>
-        <div>
-          <Folder className="h-4 w-4" />
+        <div className="w-full flex items-center h-6 transition-colors hover:text-muted-foreground cursor-pointer">
+          <Folder className="h-4 w-4 mr-2" />
           styles
         </div>
       </div>
